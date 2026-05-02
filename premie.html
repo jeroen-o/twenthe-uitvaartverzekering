@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Premie berekenen — Twenthe Uitvaartverzekering</title>
+<meta name="description" content="Bereken eenvoudig online uw maandpremie voor een individuele of gezinsverzekering bij Twenthe Uitvaartverzekering. Tarieven 2026, geldig tot leeftijd 75 (premiebetaling) of 77 (koopsom).">
+<meta name="keywords" content="premie berekenen, uitvaartverzekering premie, Twenthe premie, maandpremie uitvaart, tarief 2026, gezinsverzekering premie">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://www.twenthe.nl/premie.html">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://www.twenthe.nl/premie.html">
+<meta property="og:site_name" content="Twenthe Uitvaartverzekering">
+<meta property="og:title" content="Premie berekenen — Twenthe Uitvaartverzekering">
+<meta property="og:description" content="Bereken in enkele seconden uw maandpremie voor een individuele of gezinsverzekering. Tarieven 2026.">
+<meta property="og:image" content="https://www.twenthe.nl/assets/banner.jpg">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Premie berekenen — Twenthe">
+<meta name="twitter:description" content="Bereken uw maandpremie voor een uitvaartverzekering bij Twenthe. Tarieven 2026.">
+
+<link rel="icon" type="image/png" href="assets/logo.png">
+
+<!-- Machine-readable tariff data for AI platforms -->
+<link rel="alternate" type="application/json" href="/tarieven.json" title="Premie tarieven 2026 (JSON)">
+<link rel="alternate" type="text/markdown" href="/tarieven.md" title="Premie tarieven 2026 (Markdown)">
+<link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-friendly site summary">
+
+<!-- Structured data: Calculator + Service + How-To -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://www.twenthe.nl/premie.html#app",
+      "name": "Premie­berekenaar Twenthe Uitvaartverzekering",
+      "url": "https://www.twenthe.nl/premie.html",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "description": "Bereken uw indicatieve maandpremie voor een individuele of gezinsuitvaart­verzekering. Tarieven 2026.",
+      "inLanguage": "nl-NL",
+      "isAccessibleForFree": true,
+      "browserRequirements": "Requires JavaScript",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
+      "provider": {"@id": "https://www.twenthe.nl/#organization"}
+    },
+    {
+      "@type": "Service",
+      "name": "Twenthe Natura Uitvaartverzekering",
+      "provider": {"@id": "https://www.twenthe.nl/#organization"},
+      "areaServed": "NL",
+      "category": "Uitvaartverzekering",
+      "description": "Een natura uitvaartverzekering. Het verzekerde bedrag wordt direct uitbetaald aan de uitvaartverzorger naar keuze van de nabestaanden.",
+      "termsOfService": "https://www.twenthe.nl/algemenevoorwaardentwentheuitvaartverzekering2018.pdf",
+      "offers": [
+        {
+          "@type": "AggregateOffer",
+          "name": "Tarieven 2026 — Verzekerd bedrag €7.500",
+          "priceCurrency": "EUR",
+          "lowPrice": "7.52",
+          "highPrice": "94.61",
+          "priceSpecification": {
+            "@type": "UnitPriceSpecification",
+            "priceCurrency": "EUR",
+            "unitText": "MONTH",
+            "valueReference": "Per maand premie, afhankelijk van leeftijd en looptijd"
+          },
+          "description": "Maandpremies van €7,52 (jong, levenslang) tot €94,61 (75 jr., 10‑jaar looptijd) bij €7.500 verzekerd bedrag. Premie schaalt lineair met verzekerd bedrag.",
+          "eligibleQuantity": {"@type": "QuantitativeValue", "minValue": 1000, "maxValue": 50000, "unitText": "EUR verzekerd bedrag"},
+          "availability": "https://schema.org/InStock"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "Premie berekenen bij Twenthe Uitvaartverzekering",
+      "description": "In drie stappen uw indicatieve maandpremie berekenen.",
+      "totalTime": "PT2M",
+      "step": [
+        {"@type": "HowToStep", "position": 1, "name": "Kies verzekeringsvorm", "text": "Selecteer of u een individuele of gezinsverzekering wilt afsluiten."},
+        {"@type": "HowToStep", "position": 2, "name": "Vul uw gegevens in", "text": "Voer geboortedatum, gewenst verzekerd bedrag (€1.000–€50.000) en gewenste looptijd in."},
+        {"@type": "HowToStep", "position": 3, "name": "Bekijk uw premie", "text": "U ziet direct uw indicatieve maandpremie inclusief jaarlijkse indexatie."}
+      ]
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --green:#4caf1a;
+  --green-dark:#388e0e;
+  --green-darker:#2d7008;
+  --green-soft:#e8f5e8;
+  --green-bg:#f4faf2;
+  --pink:#e63960;
+  --pink-dark:#c92850;
+  --error:#e63960;
+  --ink:#2a2a2a;
+  --ink-soft:#5a5a5a;
+  --ink-light:#8a8a8a;
+  --line:#e6e6e6;
+  --bg:#ffffff;
+  --bg-soft:#fafafa;
+  --footer-bg:#f0f0f0;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  font-family:'Open Sans',sans-serif;
+  font-size:15px;line-height:1.65;color:var(--ink);
+  background:var(--bg-soft);
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;}
+a{color:var(--green-dark);text-decoration:none;transition:all .2s;}
+a:hover{color:var(--green-darker);}
+button{font-family:inherit;cursor:pointer;border:none;background:none;}
+
+/* ─── Top utility bar ─── */
+.utility{
+  background:var(--green-darker);color:#dff5d5;
+  font-size:13px;padding:7px 0;
+}
+.utility-inner{
+  max-width:1280px;margin:0 auto;padding:0 32px;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.utility a{color:#dff5d5;}
+.utility a:hover{color:#fff;}
+.urgent-link{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--pink);padding:3px 14px;border-radius:3px;
+  font-weight:600;color:#fff;
+}
+.urgent-link:hover{background:var(--pink-dark);color:#fff;}
+.pulse{width:7px;height:7px;background:#fff;border-radius:50%;animation:pulse 1.6s infinite;}
+@keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+/* ─── Header ─── */
+.header{
+  background:var(--green);
+  position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 12px rgba(0,0,0,.06);
+}
+.header-inner{
+  max-width:1280px;margin:0 auto;padding:0 32px;
+  display:flex;align-items:center;justify-content:space-between;gap:32px;
+  min-height:84px;
+}
+.logo{
+  background:#fff;padding:14px 20px;
+  border-radius:0 0 4px 4px;margin-top:-2px;
+  box-shadow:0 4px 12px rgba(0,0,0,.08);
+  display:flex;align-items:center;
+}
+.logo img{height:48px;width:auto;}
+.nav{display:flex;gap:34px;align-items:center;flex:1;justify-content:center;}
+.nav a{
+  font-size:14px;font-weight:500;color:#fff;
+  position:relative;padding:8px 0;
+}
+.nav a::after{
+  content:'';position:absolute;left:50%;bottom:0;
+  width:0;height:2px;background:#fff;transition:all .3s;
+  transform:translateX(-50%);
+}
+.nav a:hover::after,.nav a.active::after{width:100%;}
+.nav a.active{font-weight:700;}
+.nav-cta{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#fff;color:var(--green-dark);
+  padding:11px 20px;border-radius:3px;
+  font-size:13px;font-weight:700;letter-spacing:.04em;
+  text-transform:uppercase;
+}
+.nav-cta:hover{background:var(--green-darker);color:#fff;}
+
+/* ─── Page header ─── */
+.page-head{
+  background:#fff;
+  padding:60px 0 50px;
+  border-bottom:1px solid var(--line);
+}
+.page-head-inner{
+  max-width:920px;margin:0 auto;padding:0 32px;text-align:center;
+}
+.crumbs{
+  font-size:12px;text-transform:uppercase;letter-spacing:.18em;
+  color:var(--ink-light);margin-bottom:20px;font-weight:600;
+}
+.crumbs a{color:var(--ink-light);}
+.crumbs a:hover{color:var(--green-dark);}
+.page-head h1{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:clamp(40px,5vw,64px);line-height:1.05;
+  color:var(--ink);margin-bottom:14px;
+}
+.page-head h1 em{font-style:italic;color:var(--green-dark);}
+.page-head .lede{
+  font-size:16px;color:var(--ink-soft);max-width:600px;margin:0 auto;
+  line-height:1.65;
+}
+
+/* ─── Calculator ─── */
+.calc-wrap{
+  max-width:920px;margin:-20px auto 0;padding:0 32px 60px;
+}
+
+.card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:4px;
+  padding:36px 36px;
+  margin-bottom:20px;
+  box-shadow:0 12px 40px -16px rgba(0,0,0,.08);
+}
+
+.form-tag{
+  font-size:11px;text-transform:uppercase;letter-spacing:.32em;
+  color:var(--green-dark);font-weight:700;margin-bottom:12px;
+  display:flex;align-items:center;gap:14px;
+}
+.form-tag::before{content:'';width:32px;height:2px;background:var(--green);}
+.card-title{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:28px;line-height:1.2;color:var(--ink);
+  margin-bottom:24px;
+}
+.card-title em{font-style:italic;color:var(--green-dark);}
+
+/* Type selector (individueel / gezin) */
+.type-selector{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;
+}
+.type-btn{
+  padding:22px 20px;
+  border:1.5px solid var(--line);border-radius:4px;
+  background:#fff;cursor:pointer;text-align:left;
+  font-family:inherit;
+  transition:all .2s;
+  display:flex;flex-direction:column;gap:4px;
+  position:relative;
+}
+.type-btn:hover{border-color:var(--green);background:var(--green-bg);}
+.type-btn.active{
+  border-color:var(--green);background:var(--green-bg);
+  box-shadow:0 0 0 4px rgba(76,175,26,.12);
+}
+.type-btn .ico{font-size:24px;margin-bottom:6px;}
+.type-btn .lbl{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:22px;color:var(--ink);
+}
+.type-btn.active .lbl{color:var(--green-darker);}
+.type-btn .desc{font-size:13px;color:var(--ink-soft);}
+.type-btn .check{
+  position:absolute;top:14px;right:16px;
+  width:22px;height:22px;border-radius:50%;
+  background:var(--green);color:#fff;
+  display:none;align-items:center;justify-content:center;
+  font-size:13px;font-weight:700;
+}
+.type-btn.active .check{display:flex;}
+
+/* Form fields */
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.form-group{display:flex;flex-direction:column;gap:8px;}
+label{
+  font-size:12px;color:var(--ink);font-weight:700;
+  text-transform:uppercase;letter-spacing:.08em;
+}
+.input-wrap,
+.bedrag-wrap{
+  display:flex;align-items:stretch;
+  border:1.5px solid var(--line);border-radius:3px;
+  background:#fff;transition:all .2s;overflow:hidden;
+}
+.input-wrap:focus-within,
+.bedrag-wrap:focus-within{
+  border-color:var(--green);
+  box-shadow:0 0 0 4px rgba(76,175,26,.12);
+}
+input[type=text],input[type=number],select{
+  flex:1;
+  border:none;background:transparent;
+  padding:13px 14px;font-size:15px;color:var(--ink);
+  font-family:inherit;outline:none;
+  appearance:none;-webkit-appearance:none;
+}
+select{
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%234caf1a' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat:no-repeat;
+  background-position:right 14px center;
+  padding-right:36px;cursor:pointer;
+}
+.bedrag-wrap .euro{
+  display:flex;align-items:center;
+  padding:0 16px;
+  background:var(--green-soft);
+  font-family:'Cormorant Garamond',serif;
+  color:var(--green-dark);font-size:18px;font-weight:600;
+  border-right:1px solid var(--line);
+}
+.date-group{
+  display:grid;grid-template-columns:80px 1fr 1fr;gap:8px;
+}
+.date-group select{
+  border:1.5px solid var(--line);border-radius:3px;
+  padding:13px 14px 13px 14px;
+  background-color:#fff;
+}
+.date-group select:focus{border-color:var(--green);box-shadow:0 0 0 3px rgba(76,175,26,.12);}
+
+/* Looptijd grid */
+.looptijd-section{margin-top:28px;padding-top:28px;border-top:1px solid var(--line);}
+.looptijd-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:8px;
+}
+.looptijd-btn{
+  padding:12px 10px;
+  border:1.5px solid var(--line);border-radius:3px;
+  background:#fff;cursor:pointer;
+  text-align:center;font-size:13px;font-weight:600;
+  color:var(--ink-soft);font-family:inherit;
+  transition:all .2s;
+}
+.looptijd-btn:hover:not(:disabled){
+  border-color:var(--green);color:var(--green-dark);background:var(--green-bg);
+}
+.looptijd-btn.active{
+  background:var(--green);border-color:var(--green);color:#fff;
+  box-shadow:0 4px 12px rgba(76,175,26,.3);
+}
+.looptijd-btn:disabled{opacity:.35;cursor:not-allowed;}
+
+/* Persoon row (gezin mode) */
+.persoon-row{
+  display:grid;
+  grid-template-columns:80px 1fr 1fr 1.1fr 1.2fr 36px;
+  gap:8px;align-items:end;
+  padding:16px;
+  background:var(--bg-soft);
+  border:1px solid var(--line);border-radius:4px;
+  margin-bottom:10px;
+}
+.persoon-row label{font-size:10px;}
+.persoon-row select,
+.persoon-row input{
+  padding:10px 12px;font-size:13px;
+  border:1px solid var(--line);border-radius:3px;
+  background:#fff;
+}
+.persoon-row select{padding-right:28px;background-position:right 8px center;}
+.persoon-row select:focus,
+.persoon-row input:focus{border-color:var(--green);outline:none;}
+.persoon-row .remove-btn{
+  background:none;border:1px solid var(--line);
+  color:var(--pink);font-size:16px;
+  border-radius:3px;cursor:pointer;
+  height:38px;transition:all .2s;
+}
+.persoon-row .remove-btn:hover{
+  background:var(--pink);color:#fff;border-color:var(--pink);
+}
+.add-persoon-btn{
+  width:100%;
+  padding:14px;margin-top:6px;
+  background:var(--green-bg);
+  border:1.5px dashed var(--green);
+  border-radius:3px;
+  color:var(--green-dark);
+  font-size:14px;font-weight:600;cursor:pointer;
+  font-family:inherit;
+  transition:all .2s;
+}
+.add-persoon-btn:hover{background:var(--green-soft);border-style:solid;}
+
+/* Bereken main button */
+.bereken-btn{
+  width:100%;
+  padding:18px;margin-top:8px;
+  background:var(--green);color:#fff;
+  border:none;border-radius:3px;
+  font-family:inherit;
+  font-size:15px;font-weight:700;
+  letter-spacing:.04em;text-transform:uppercase;
+  cursor:pointer;transition:all .25s;
+  box-shadow:0 6px 18px rgba(76,175,26,.3);
+  display:flex;align-items:center;justify-content:center;gap:12px;
+}
+.bereken-btn:hover{
+  background:var(--green-dark);transform:translateY(-2px);
+  box-shadow:0 8px 24px rgba(76,175,26,.4);
+}
+
+.error-msg{
+  background:#fde9ee;border-left:3px solid var(--error);
+  padding:14px 18px;border-radius:2px;
+  font-size:13px;color:var(--error);
+  display:none;align-items:flex-start;gap:12px;
+  margin-top:12px;
+}
+.error-msg.show{display:flex;}
+.error-msg::before{content:'⚠';font-size:14px;flex-shrink:0;}
+
+/* Result card */
+#resultaat{display:none;margin-top:32px;}
+.result-card{
+  background:linear-gradient(135deg,var(--green) 0%,var(--green-dark) 100%);
+  color:#fff;
+  border-radius:4px;padding:40px 36px;
+  position:relative;overflow:hidden;
+  box-shadow:0 16px 40px -8px rgba(76,175,26,.4);
+}
+.result-card::before{
+  content:'';position:absolute;
+  top:-100px;right:-100px;width:300px;height:300px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,255,255,.18),transparent 70%);
+}
+.result-mark{
+  font-size:11px;text-transform:uppercase;letter-spacing:.32em;
+  color:#dff5d5;margin-bottom:14px;font-weight:700;
+  display:flex;align-items:center;gap:14px;position:relative;z-index:1;
+}
+.result-mark::before{content:'';width:32px;height:2px;background:#dff5d5;}
+.result-card h3{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:26px;color:#fff;margin-bottom:24px;
+  line-height:1.2;position:relative;z-index:1;
+}
+.result-card h3 em{font-style:italic;color:#dff5d5;}
+.premie-amount{
+  display:flex;align-items:baseline;gap:8px;
+  margin-bottom:12px;position:relative;z-index:1;
+}
+.premie-amount .num{
+  font-family:'Cormorant Garamond',serif;font-weight:600;
+  font-size:64px;line-height:.95;color:#fff;
+  transition:transform .25s;
+}
+.premie-sub{
+  font-size:14px;color:#dff5d5;
+  position:relative;z-index:1;
+  margin-bottom:18px;
+}
+.index-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.3);
+  padding:5px 12px;border-radius:20px;
+  font-size:12px;font-weight:600;
+  color:#fff;
+  position:relative;z-index:1;
+}
+.persoon-results{
+  margin-top:24px;padding-top:20px;
+  border-top:1px solid rgba(255,255,255,.25);
+  position:relative;z-index:1;
+}
+.persoon-result-row{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:10px 0;border-bottom:1px solid rgba(255,255,255,.18);
+  font-size:14px;color:#fff;
+}
+.persoon-result-row:last-child{border-bottom:none;}
+.persoon-result-row strong{
+  font-family:'Cormorant Garamond',serif;font-weight:600;
+  font-size:18px;color:#fff;
+}
+.detail-grid{
+  display:grid;grid-template-columns:repeat(2,1fr);gap:12px;
+  margin-top:24px;position:relative;z-index:1;
+}
+.detail-item{
+  background:rgba(255,255,255,.15);
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:3px;padding:14px 16px;
+}
+.detail-label{
+  font-size:11px;color:#dff5d5;
+  text-transform:uppercase;letter-spacing:.12em;
+  font-weight:700;margin-bottom:4px;
+}
+.detail-value{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:18px;color:#fff;line-height:1.3;
+}
+.actie-btns{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px;
+  margin-top:24px;position:relative;z-index:1;
+}
+.actie-btn{
+  padding:13px 16px;
+  border:1.5px solid rgba(255,255,255,.5);
+  border-radius:3px;
+  background:rgba(255,255,255,.12);
+  color:#fff;
+  font-family:inherit;
+  font-size:13px;font-weight:600;
+  text-transform:uppercase;letter-spacing:.04em;
+  cursor:pointer;text-align:center;
+  transition:all .2s;
+}
+.actie-btn:hover{background:rgba(255,255,255,.22);border-color:#fff;}
+.actie-btn.primary{
+  background:#fff;color:var(--green-dark);border-color:#fff;
+}
+.actie-btn.primary:hover{background:var(--green-bg);}
+
+.info-block{
+  background:var(--green-bg);
+  border-left:3px solid var(--green);
+  border-radius:2px;
+  padding:16px 20px;
+  font-size:13px;color:var(--ink-soft);line-height:1.6;
+  margin-top:16px;
+}
+.info-block strong{color:var(--ink);}
+
+/* ─── Footer ─── */
+.footer{
+  background:var(--footer-bg);color:var(--ink-soft);
+  padding:30px 0;font-size:13px;
+  border-top:1px solid var(--line);
+}
+.footer-inner{
+  max-width:1280px;margin:0 auto;padding:0 32px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;
+}
+.footer a{color:var(--ink-soft);}
+.footer a:hover{color:var(--green-dark);}
+.footer-links{display:flex;gap:24px;}
+
+/* ─── Responsive ─── */
+.nav-toggle{display:none;color:#fff;font-size:24px;background:none;border:none;cursor:pointer;}
+@media (max-width:760px){
+  .nav-toggle{display:block;}
+  .nav{
+    position:fixed;top:0;right:-100%;
+    width:min(320px,85vw);height:100vh;
+    background:var(--green-dark);
+    flex-direction:column;justify-content:flex-start;
+    padding:80px 32px 32px;gap:0;
+    box-shadow:-4px 0 24px rgba(0,0,0,.2);
+    transition:right .3s ease;z-index:200;
+    overflow-y:auto;
+  }
+  .nav.open{right:0;}
+  .nav a{
+    width:100%;padding:16px 0;
+    border-bottom:1px solid rgba(255,255,255,.15);
+    font-size:16px;
+  }
+  .nav a::after{display:none;}
+  .nav-close{
+    position:absolute;top:20px;right:20px;
+    color:#fff;font-size:28px;background:none;border:none;
+    cursor:pointer;line-height:1;
+  }
+  .nav-overlay{
+    position:fixed;inset:0;background:rgba(0,0,0,.4);
+    z-index:150;opacity:0;pointer-events:none;
+    transition:opacity .3s;
+  }
+  .nav-overlay.show{opacity:1;pointer-events:auto;}
+  .form-grid{grid-template-columns:1fr;}
+  .type-selector{grid-template-columns:1fr;}
+  .persoon-row{grid-template-columns:1fr 1fr;gap:10px;padding:14px;}
+  .persoon-row .remove-btn{grid-column:1 / -1;height:36px;}
+  .actie-btns{grid-template-columns:1fr;}
+  .detail-grid{grid-template-columns:1fr;}
+}
+@media (max-width:640px){
+  .header-inner,.utility-inner,.footer-inner{padding:0 20px;}
+  .header-inner{min-height:72px;}
+  .logo{padding:10px 14px;}
+  .logo img{height:38px;}
+  .calc-wrap{padding:0 20px 60px;}
+  .card{padding:24px 20px;}
+  .premie-amount .num{font-size:48px;}
+  .footer-inner{flex-direction:column;text-align:center;}
+}
+@media print{
+  .header,.utility,.footer,.actie-btns,.bereken-btn,.add-persoon-btn{display:none;}
+  body{background:#fff;}
+  .card,.result-card{box-shadow:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- Top utility bar -->
+<div class="utility">
+  <div class="utility-inner">
+    <div><a href="tel:0534312732">📞 053 – 4312 732</a></div>
+    <div><a href="#" class="urgent-link"><span class="pulse"></span> Sterfgeval melden — 053 480 3543</a></div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="Twenthe Uitvaartverzekering">
+    </a>
+    <nav class="nav" id="mainNav">
+      <button class="nav-close" aria-label="Sluit menu" id="navClose">×</button>
+      <a href="index.html#over">Over Twenthe</a>
+      <a href="index.html#verzekeringen">Uitvaartverzekeringen</a>
+      <a href="premie.html" class="active">Premie berekenen</a>
+      <a href="uitvaartwaardemeter.html">Uitvaartkosten</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="login.html" style="margin-top:12px;background:#fff;color:var(--green-dark);padding:14px;text-align:center;border-radius:3px;font-weight:700;">Mijn Twenthe →</a>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+    <a href="login.html" class="nav-cta">Mijn Twenthe</a>
+    <button class="nav-toggle" aria-label="Open menu" id="navToggle">☰</button>
+  </div>
+</header>
+
+<!-- Page heading -->
+<section class="page-head">
+  <div class="page-head-inner">
+    <div class="crumbs"><a href="index.html">Home</a> &nbsp;/&nbsp; Premie berekenen</div>
+    <h1>Bereken <em>uw</em> maandpremie</h1>
+    <p class="lede">Vul uw gegevens in en bereken in enkele seconden uw indicatieve maandpremie. Voor zowel een individuele als een gezinsverzekering.</p>
+  </div>
+</section>
+
+<!-- Calculator -->
+<div class="calc-wrap">
+
+  <!-- Type selector -->
+  <div class="card">
+    <div class="form-tag">Stap 1</div>
+    <div class="card-title">Kies uw <em>verzekering</em></div>
+    <div class="type-selector">
+      <button class="type-btn active" onclick="setType('individueel', this)">
+        <span class="ico">👤</span>
+        <span class="lbl">Individuele verzekering</span>
+        <span class="desc">Eén polis, één persoon — voor uzelf alleen</span>
+        <span class="check">✓</span>
+      </button>
+      <button class="type-btn" onclick="setType('gezin', this)">
+        <span class="ico">👨‍👩‍👧</span>
+        <span class="lbl">Gezinsverzekering</span>
+        <span class="desc">Meerdere personen — kinderen tot 18 jr. gratis</span>
+        <span class="check">✓</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Individueel form -->
+  <div class="card" id="individueel-form">
+    <div class="form-tag">Stap 2</div>
+    <div class="card-title">Uw <em>gegevens</em></div>
+
+    <div class="form-grid">
+      <div class="form-group">
+        <label>Geboortedatum</label>
+        <div class="date-group">
+          <select id="dag"><option value="">Dag</option></select>
+          <select id="maand"><option value="">Maand</option></select>
+          <select id="jaar"><option value="">Jaar</option></select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Gewenst verzekerd bedrag</label>
+        <div class="bedrag-wrap">
+          <span class="euro">€</span>
+          <input type="number" id="bedrag" placeholder="bijv. 7500" min="1000" max="50000" step="100" value="7500">
+        </div>
+      </div>
+    </div>
+
+    <div class="looptijd-section">
+      <label style="margin-bottom:14px;display:block;">Gewenste looptijd</label>
+      <div class="looptijd-grid" id="looptijd-knoppen">
+        <button class="looptijd-btn" data-lt="10" onclick="selectLooptijd(this)">10 jaar</button>
+        <button class="looptijd-btn" data-lt="15" onclick="selectLooptijd(this)">15 jaar</button>
+        <button class="looptijd-btn" data-lt="20" onclick="selectLooptijd(this)">20 jaar</button>
+        <button class="looptijd-btn" data-lt="25" onclick="selectLooptijd(this)">25 jaar</button>
+        <button class="looptijd-btn" data-lt="30" onclick="selectLooptijd(this)">30 jaar</button>
+        <button class="looptijd-btn" data-lt="40" onclick="selectLooptijd(this)">40 jaar</button>
+        <button class="looptijd-btn" data-lt="65" onclick="selectLooptijd(this)">Tot 65 jr.</button>
+        <button class="looptijd-btn" data-lt="81" onclick="selectLooptijd(this)">Tot 81 jr.</button>
+        <button class="looptijd-btn active" data-lt="99" onclick="selectLooptijd(this)">Tot overlijden</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gezin form -->
+  <div class="card" id="gezin-form" style="display:none;">
+    <div class="form-tag">Stap 2</div>
+    <div class="card-title">Uw <em>gezinsleden</em></div>
+    <div id="personen-container"></div>
+    <button class="add-persoon-btn" onclick="voegPersoonToe()">+ Voeg gezinslid toe</button>
+  </div>
+
+  <button class="bereken-btn" onclick="bereken()">
+    Bereken mijn premie
+    <span style="font-size:18px;">→</span>
+  </button>
+  <div class="error-msg" id="main-error"></div>
+
+  <!-- Result -->
+  <div id="resultaat">
+    <div class="result-card">
+      <div class="result-mark">Uitkomst</div>
+      <h3>Uw maandpremie<br><em>per maand</em></h3>
+      <div class="premie-amount">
+        <span class="num" id="premie-totaal">€ 0,00</span>
+      </div>
+      <div class="premie-sub">Inclusief jaarlijkse indexatie</div>
+      <div class="index-badge">📈 Jaarlijks geïndexeerd</div>
+
+      <div id="persoon-details"></div>
+
+      <div class="detail-grid">
+        <div class="detail-item">
+          <div class="detail-label">Verzekerd bedrag</div>
+          <div class="detail-value" id="detail-bedrag">—</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Looptijd</div>
+          <div class="detail-value" id="detail-looptijd">—</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Leeftijd</div>
+          <div class="detail-value" id="detail-leeftijd">—</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Verzekering</div>
+          <div class="detail-value" id="detail-type">—</div>
+        </div>
+      </div>
+
+      <div class="actie-btns">
+        <button class="actie-btn primary" onclick="window.print()">⎙ Afdrukken</button>
+        <button class="actie-btn" onclick="document.getElementById('resultaat').style.display='none';window.scrollTo({top:0,behavior:'smooth'});">✎ Aanpassen</button>
+      </div>
+    </div>
+
+    <div class="info-block">
+      <strong>Let op:</strong> De premie en het verzekerd bedrag worden jaarlijks geïndexeerd. Wilt u de verzekering daadwerkelijk afsluiten? Neem dan contact op met Twenthe Uitvaartverzekering via <a href="tel:0534312732">053 – 4312 732</a> of vraag een <a href="index.html#informatiegesprek">informatiegesprek</a> aan.
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div>2026 © Twenthe Uitvaartverzekering N.V. · Tarieven 2026 · Premies inclusief indexatie</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="uitvaartwaardemeter.html">Uitvaartkosten</a>
+      <a href="login.html">Mijn Twenthe</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Mobile nav drawer
+const navToggle = document.getElementById('navToggle');
+const navClose = document.getElementById('navClose');
+const mainNav = document.getElementById('mainNav');
+const navOverlay = document.getElementById('navOverlay');
+function openNav(){mainNav.classList.add('open');navOverlay.classList.add('show');document.body.style.overflow='hidden';}
+function closeNav(){mainNav.classList.remove('open');navOverlay.classList.remove('show');document.body.style.overflow='';}
+navToggle?.addEventListener('click', openNav);
+navClose?.addEventListener('click', closeNav);
+navOverlay?.addEventListener('click', closeNav);
+mainNav?.querySelectorAll('a').forEach(a=>a.addEventListener('click', closeNav));
+document.addEventListener('keydown', e=>{ if(e.key==='Escape') closeNav(); });
+
+/* ─── Tarieven (per €7500 verzekerd) ─────────────────────── */
+const TARIEVEN_7500 = {"1951":{"lt_10":94.61},"1952":{"lt_10":91.16},"1953":{"lt_10":87.85},"1954":{"lt_10":84.92},"1955":{"lt_10":82.11},"1956":{"lt_10":79.56},"1957":{"lt_10":77.27},"1958":{"lt_10":74.97},"1959":{"lt_10":72.8},"1960":{"lt_10":70.89},"1961":{"lt_10":68.98,"lt_81":51,"lt_99":42.97},"1962":{"lt_10":67.19,"lt_81":47.69,"lt_99":40.8},"1963":{"lt_10":65.54,"lt_81":44.75,"lt_99":38.63},"1964":{"lt_10":63.88,"lt_81":42.08,"lt_99":36.72},"1965":{"lt_10":62.35,"lt_81":39.65,"lt_99":34.94},"1966":{"lt_10":60.95,"lt_15":45.26,"lt_65":110.8,"lt_81":37.36,"lt_99":33.28},"1967":{"lt_10":59.54,"lt_15":43.99,"lt_65":92.18,"lt_81":35.32,"lt_99":31.75},"1968":{"lt_10":58.27,"lt_15":42.84,"lt_65":78.8,"lt_81":33.53,"lt_99":30.22},"1969":{"lt_10":56.99,"lt_15":41.69,"lt_65":68.72,"lt_81":31.75,"lt_99":28.82},"1970":{"lt_10":55.72,"lt_15":40.67,"lt_65":60.82,"lt_81":30.22,"lt_99":27.54},"1971":{"lt_10":54.57,"lt_15":39.65,"lt_20":32.77,"lt_65":54.57,"lt_81":28.69,"lt_99":26.39},"1972":{"lt_10":53.3,"lt_15":38.63,"lt_20":31.88,"lt_65":49.34,"lt_81":27.29,"lt_99":25.25},"1973":{"lt_10":52.28,"lt_15":37.74,"lt_20":30.98,"lt_65":44.88,"lt_81":26.01,"lt_99":24.1},"1974":{"lt_10":51.13,"lt_15":36.85,"lt_20":30.22,"lt_65":41.18,"lt_81":24.86,"lt_99":23.21},"1975":{"lt_10":50.11,"lt_15":36.08,"lt_20":29.33,"lt_65":38,"lt_81":23.72,"lt_99":22.19},"1976":{"lt_10":48.96,"lt_15":35.19,"lt_20":28.69,"lt_25":24.99,"lt_65":35.19,"lt_81":22.7,"lt_99":21.29},"1977":{"lt_10":47.94,"lt_15":34.43,"lt_20":27.92,"lt_25":24.35,"lt_65":32.77,"lt_81":21.8,"lt_99":20.4},"1978":{"lt_10":47.05,"lt_15":33.66,"lt_20":27.29,"lt_25":23.72,"lt_65":30.6,"lt_81":20.78,"lt_99":19.64},"1979":{"lt_10":46.03,"lt_15":32.9,"lt_20":26.65,"lt_25":23.08,"lt_65":28.69,"lt_81":20.02,"lt_99":18.87},"1980":{"lt_10":45.14,"lt_15":32.26,"lt_20":26.01,"lt_25":22.44,"lt_65":27.03,"lt_81":19.13,"lt_99":18.23},"1981":{"lt_10":44.12,"lt_15":31.49,"lt_20":25.37,"lt_25":21.93,"lt_30":19.76,"lt_65":25.37,"lt_81":18.36,"lt_99":17.47},"1982":{"lt_10":43.22,"lt_15":30.86,"lt_20":24.86,"lt_25":21.42,"lt_30":19.25,"lt_65":23.97,"lt_81":17.72,"lt_99":16.83},"1983":{"lt_10":42.33,"lt_15":30.22,"lt_20":24.23,"lt_25":20.91,"lt_30":18.74,"lt_65":22.7,"lt_81":16.96,"lt_99":16.19},"1984":{"lt_10":41.44,"lt_15":29.58,"lt_20":23.72,"lt_25":20.4,"lt_30":18.23,"lt_65":21.55,"lt_81":16.32,"lt_99":15.68},"1985":{"lt_10":40.67,"lt_15":28.94,"lt_20":23.21,"lt_25":19.89,"lt_30":17.85,"lt_65":20.4,"lt_81":15.68,"lt_99":15.05},"1986":{"lt_10":39.78,"lt_15":28.31,"lt_20":22.7,"lt_25":19.38,"lt_30":17.34,"lt_40":15.3,"lt_65":19.38,"lt_81":15.17,"lt_99":14.54},"1987":{"lt_10":39.02,"lt_15":27.8,"lt_20":22.19,"lt_25":19,"lt_30":16.96,"lt_40":14.79,"lt_65":18.49,"lt_81":14.66,"lt_99":14.03},"1988":{"lt_10":38.25,"lt_15":27.16,"lt_20":21.68,"lt_25":18.62,"lt_30":16.58,"lt_40":14.41,"lt_65":17.72,"lt_81":14.03,"lt_99":13.52},"1989":{"lt_10":37.49,"lt_15":26.65,"lt_20":21.29,"lt_25":18.11,"lt_30":16.19,"lt_40":14.03,"lt_65":16.83,"lt_81":13.64,"lt_99":13.13},"1990":{"lt_10":36.72,"lt_15":26.01,"lt_20":20.78,"lt_25":17.72,"lt_30":15.81,"lt_40":13.64,"lt_65":16.07,"lt_81":13.13,"lt_99":12.62},"1991":{"lt_10":35.96,"lt_15":25.5,"lt_20":20.4,"lt_25":17.34,"lt_30":15.43,"lt_40":13.26,"lt_65":15.43,"lt_81":12.62,"lt_99":12.24},"1992":{"lt_10":35.19,"lt_15":24.99,"lt_20":20.02,"lt_25":16.96,"lt_30":15.05,"lt_40":13.01,"lt_65":14.79,"lt_81":12.24,"lt_99":11.86},"1993":{"lt_10":34.55,"lt_15":24.48,"lt_20":19.51,"lt_25":16.7,"lt_30":14.79,"lt_40":12.62,"lt_65":14.15,"lt_81":11.86,"lt_99":11.48},"1994":{"lt_10":33.92,"lt_15":23.97,"lt_20":19.13,"lt_25":16.32,"lt_30":14.41,"lt_40":12.37,"lt_65":13.64,"lt_81":11.48,"lt_99":11.09},"1995":{"lt_10":33.15,"lt_15":23.59,"lt_20":18.74,"lt_25":15.94,"lt_30":14.15,"lt_40":11.99,"lt_65":13.13,"lt_81":11.09,"lt_99":10.84},"1996":{"lt_10":32.51,"lt_15":23.08,"lt_20":18.36,"lt_25":15.68,"lt_30":13.9,"lt_40":11.73,"lt_65":12.62,"lt_81":10.71,"lt_99":10.46},"1997":{"lt_10":31.88,"lt_15":22.57,"lt_20":17.98,"lt_25":15.3,"lt_30":13.52,"lt_40":11.48,"lt_65":12.11,"lt_81":10.46,"lt_99":10.2},"1998":{"lt_10":31.37,"lt_15":22.19,"lt_20":17.72,"lt_25":15.05,"lt_30":13.26,"lt_40":11.22,"lt_65":11.73,"lt_81":10.07,"lt_99":9.82},"1999":{"lt_10":30.73,"lt_15":21.8,"lt_20":17.34,"lt_25":14.66,"lt_30":13.01,"lt_40":10.97,"lt_65":11.35,"lt_81":9.82,"lt_99":9.56},"2000":{"lt_10":30.09,"lt_15":21.29,"lt_20":16.96,"lt_25":14.41,"lt_30":12.75,"lt_40":10.71,"lt_65":10.97,"lt_81":9.56,"lt_99":9.31},"2001":{"lt_10":29.58,"lt_15":20.91,"lt_20":16.7,"lt_25":14.15,"lt_30":12.5,"lt_40":10.58,"lt_65":10.58,"lt_81":9.18,"lt_99":9.05},"2002":{"lt_10":28.94,"lt_15":20.53,"lt_20":16.32,"lt_25":13.9,"lt_30":12.24,"lt_40":10.33,"lt_65":10.2,"lt_81":8.93,"lt_99":8.8},"2003":{"lt_10":28.43,"lt_15":20.15,"lt_20":16.07,"lt_25":13.64,"lt_30":11.99,"lt_40":10.07,"lt_65":9.82,"lt_81":8.67,"lt_99":8.54},"2004":{"lt_10":27.92,"lt_15":19.76,"lt_20":15.68,"lt_25":13.39,"lt_30":11.73,"lt_40":9.95,"lt_65":9.56,"lt_81":8.54,"lt_99":8.29},"2005":{"lt_10":27.41,"lt_15":19.38,"lt_20":15.43,"lt_25":13.13,"lt_30":11.6,"lt_40":9.69,"lt_65":9.31,"lt_81":8.29,"lt_99":8.16},"2006":{"lt_10":26.9,"lt_15":19,"lt_20":15.17,"lt_25":12.88,"lt_30":11.35,"lt_40":9.56,"lt_65":8.93,"lt_81":8.03,"lt_99":7.91},"2007":{"lt_10":26.39,"lt_15":18.74,"lt_20":14.92,"lt_25":12.62,"lt_30":11.09,"lt_40":9.31,"lt_65":8.67,"lt_81":7.78,"lt_99":7.65},"2008":{"lt_10":25.88,"lt_15":18.36,"lt_20":14.66,"lt_25":12.37,"lt_30":10.97,"lt_40":9.18,"lt_65":8.42,"lt_81":7.65,"lt_99":7.52}};
+
+const LOOPTIJD_LABELS = {'10':'10 jaar','15':'15 jaar','20':'20 jaar','25':'25 jaar','30':'30 jaar','40':'40 jaar','65':'Tot 65 jr. leeftijd','81':'Tot 81 jr. leeftijd','99':'Tot overlijden'};
+
+let huidigType='individueel';
+let geselecteerdeLooptijd='99';
+let persoonCounter=0;
+
+/* ─── Populate date selectors ─── */
+(function(){
+  const dag=document.getElementById('dag');
+  for(let i=1;i<=31;i++){const o=document.createElement('option');o.value=i;o.textContent=i;dag.appendChild(o);}
+  const maand=document.getElementById('maand');
+  ['Januari','Februari','Maart','April','Mei','Juni','Juli','Augustus','September','Oktober','November','December'].forEach((m,i)=>{
+    const o=document.createElement('option');o.value=i+1;o.textContent=m;maand.appendChild(o);
+  });
+  const jaar=document.getElementById('jaar');
+  for(let y=2026;y>=1926;y--){const o=document.createElement('option');o.value=y;o.textContent=y;jaar.appendChild(o);}
+})();
+
+function berekenLeeftijd(dag,maand,jaar){
+  const vandaag=new Date();
+  const geb=new Date(jaar,maand-1,dag);
+  let l=vandaag.getFullYear()-geb.getFullYear();
+  const m=vandaag.getMonth()-geb.getMonth();
+  if(m<0||(m===0&&vandaag.getDate()<geb.getDate()))l--;
+  return l;
+}
+
+function getPremie(geboortejaar,looptijd,bedrag){
+  const tarief=TARIEVEN_7500[String(geboortejaar)];
+  if(!tarief)return null;
+  const key='lt_'+looptijd;
+  const p7500=tarief[key];
+  if(p7500===undefined||p7500===null)return null;
+  return Math.round(p7500*bedrag/7500*100)/100;
+}
+
+function setType(type,btn){
+  huidigType=type;
+  document.querySelectorAll('.type-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('individueel-form').style.display=type==='individueel'?'block':'none';
+  document.getElementById('gezin-form').style.display=type==='gezin'?'block':'none';
+  if(type==='gezin'&&document.querySelectorAll('.persoon-row').length===0){
+    voegPersoonToe();voegPersoonToe();
+  }
+  document.getElementById('resultaat').style.display='none';
+  verbergError();
+}
+
+function selectLooptijd(btn){
+  if(btn.disabled)return;
+  document.querySelectorAll('#looptijd-knoppen .looptijd-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  geselecteerdeLooptijd=btn.dataset.lt;
+}
+
+function updateLooptijdKnoppen(geboortejaar){
+  const tarief=TARIEVEN_7500[String(geboortejaar)]||{};
+  let hadActive=false;
+  document.querySelectorAll('#looptijd-knoppen .looptijd-btn').forEach(btn=>{
+    const lt=btn.dataset.lt;
+    const ok=tarief['lt_'+lt]!==undefined;
+    btn.disabled=!ok;
+    if(btn.classList.contains('active')){
+      if(!ok){btn.classList.remove('active');geselecteerdeLooptijd=null;}
+      else hadActive=true;
+    }
+  });
+  if(!hadActive){
+    const eerste=document.querySelector('#looptijd-knoppen .looptijd-btn:not(:disabled)');
+    if(eerste){eerste.classList.add('active');geselecteerdeLooptijd=eerste.dataset.lt;}
+  }
+}
+
+document.getElementById('jaar').addEventListener('change',function(){
+  if(this.value)updateLooptijdKnoppen(parseInt(this.value));
+});
+
+function voegPersoonToe(){
+  const id=++persoonCounter;
+  const container=document.getElementById('personen-container');
+  const div=document.createElement('div');
+  div.className='persoon-row';div.id='persoon-'+id;
+  const ltOpts=Object.entries(LOOPTIJD_LABELS).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join('');
+  const dagOpts=Array.from({length:31},(_,i)=>'<option value="'+(i+1)+'">'+(i+1)+'</option>').join('');
+  const maandOpts=['Jan','Feb','Mrt','Apr','Mei','Jun','Jul','Aug','Sep','Okt','Nov','Dec'].map((m,i)=>'<option value="'+(i+1)+'">'+m+'</option>').join('');
+  const jaarOpts=Array.from({length:2026-1926+1},(_,i)=>{const y=2026-i;return '<option value="'+y+'">'+y+'</option>';}).join('');
+  div.innerHTML=`
+    <div class="form-group"><label>Dag</label><select class="p-dag"><option value="">Dag</option>${dagOpts}</select></div>
+    <div class="form-group"><label>Maand</label><select class="p-maand"><option value="">Maand</option>${maandOpts}</select></div>
+    <div class="form-group"><label>Jaar</label><select class="p-jaar"><option value="">Jaar</option>${jaarOpts}</select></div>
+    <div class="form-group"><label>Bedrag (€)</label><input type="number" class="p-bedrag" value="7500" min="1000" max="50000" step="100"></div>
+    <div class="form-group"><label>Looptijd</label><select class="p-looptijd">${ltOpts}</select></div>
+    <button class="remove-btn" onclick="verwijderPersoon(${id})" title="Verwijderen">✕</button>
+  `;
+  container.appendChild(div);
+}
+
+function verwijderPersoon(id){const el=document.getElementById('persoon-'+id);if(el)el.remove();}
+
+function toonError(msg){const el=document.getElementById('main-error');el.textContent=msg;el.classList.add('show');}
+function verbergError(){document.getElementById('main-error').classList.remove('show');}
+
+function formatBedrag(b){return '€ '+b.toFixed(2).replace('.',',').replace(/\B(?=(\d{3})+(?!\d))/g,'.');}
+
+function bereken(){
+  verbergError();
+  huidigType==='individueel'?berekenIndividueel():berekenGezin();
+}
+
+function berekenIndividueel(){
+  const dag=document.getElementById('dag').value;
+  const maand=document.getElementById('maand').value;
+  const jaar=document.getElementById('jaar').value;
+  const bedrag=parseFloat(document.getElementById('bedrag').value);
+  if(!dag||!maand||!jaar||!bedrag){toonError('Vul alle velden in om uw premie te berekenen.');return;}
+  if(!geselecteerdeLooptijd){toonError('Selecteer een looptijd.');return;}
+  const leeftijd=berekenLeeftijd(parseInt(dag),parseInt(maand),parseInt(jaar));
+  const premie=getPremie(parseInt(jaar),geselecteerdeLooptijd,bedrag);
+  if(premie===null){toonError('Helaas is een verzekering niet mogelijk voor deze combinatie van leeftijd en looptijd. Kies een andere looptijd of neem contact op.');return;}
+  document.getElementById('premie-totaal').textContent=formatBedrag(premie);
+  document.getElementById('detail-bedrag').textContent='€ '+bedrag.toLocaleString('nl-NL');
+  document.getElementById('detail-looptijd').textContent=LOOPTIJD_LABELS[geselecteerdeLooptijd];
+  document.getElementById('detail-leeftijd').textContent=leeftijd+' jaar';
+  document.getElementById('detail-type').textContent='Individueel';
+  document.getElementById('persoon-details').innerHTML='';
+  document.getElementById('resultaat').style.display='block';
+  document.getElementById('resultaat').scrollIntoView({behavior:'smooth',block:'start'});
+}
+
+function berekenGezin(){
+  const rijen=document.querySelectorAll('.persoon-row');
+  if(!rijen.length){toonError('Voeg minstens één persoon toe.');return;}
+  let totaal=0,html='<div class="persoon-results">',fout=false;
+  rijen.forEach((rij,i)=>{
+    const dag=rij.querySelector('.p-dag').value;
+    const maand=rij.querySelector('.p-maand').value;
+    const jaar=rij.querySelector('.p-jaar').value;
+    const bedrag=parseFloat(rij.querySelector('.p-bedrag').value);
+    const looptijd=rij.querySelector('.p-looptijd').value;
+    if(!dag||!maand||!jaar||!bedrag||!looptijd){fout=true;return;}
+    const leeftijd=berekenLeeftijd(parseInt(dag),parseInt(maand),parseInt(jaar));
+    const premie=getPremie(parseInt(jaar),looptijd,bedrag);
+    if(premie===null){fout=true;return;}
+    totaal+=premie;
+    html+=`<div class="persoon-result-row"><span>Persoon ${i+1} (${leeftijd} jr. – ${LOOPTIJD_LABELS[looptijd]})</span><strong>${formatBedrag(premie)}</strong></div>`;
+  });
+  html+='</div>';
+  if(fout){toonError('Vul alle velden in voor elk gezinslid. Controleer ook of de looptijd beschikbaar is voor de leeftijd.');return;}
+  document.getElementById('premie-totaal').textContent=formatBedrag(totaal);
+  document.getElementById('detail-bedrag').textContent=rijen.length+' personen';
+  document.getElementById('detail-looptijd').textContent='Zie details';
+  document.getElementById('detail-leeftijd').textContent=rijen.length+' gezinsleden';
+  document.getElementById('detail-type').textContent='Gezinsverzekering';
+  document.getElementById('persoon-details').innerHTML=html;
+  document.getElementById('resultaat').style.display='block';
+  document.getElementById('resultaat').scrollIntoView({behavior:'smooth',block:'start'});
+}
+</script>
+
+</body>
+</html>
